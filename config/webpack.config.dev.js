@@ -59,7 +59,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
         plugins: () => [
           require('postcss-color-hsl'),
           require('postcss-pseudoelements'),
-          require('pixrem'),,
+          require('pixrem'),
           require('postcss-initial'),
           require('pleeease-filters'),
           require('postcss-color-rgba-fallback'),
